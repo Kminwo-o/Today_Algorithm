@@ -1,4 +1,4 @@
 ### 2024-02-01
 | 문제번호 | 문제이름 | 나의 풀이 |
 |:----:|:---------:|:---------: |
-| [25710](https://www.acmicpc.net/problem/25710) | 점수 계산 | [풀이](https://github.com/Kminwo-o/BaekJoon-Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/25710.%E2%80%85%EC%A0%90%EC%88%98%E2%80%85%EA%B3%84%EC%82%B0/%EC%A0%90%EC%88%98%E2%80%85%EA%B3%84%EC%82%B0.java) |
+| [133500](https://school.programmers.co.kr/learn/courses/30/lessons/133500) | 등대 | [풀이](https://github.com/Kminwo-o/BaekJoon-Algorithm/blob/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/133500.%E2%80%85%EB%93%B1%EB%8C%80/%EB%93%B1%EB%8C%80.java) |
