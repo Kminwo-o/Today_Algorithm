@@ -1,10 +1,9 @@
-### 2024-02-17
+### 2024-02-18
 |                     문제번호                     | 문제이름 | 나의 풀이 |
 |:--------------------------------------------:|:----:|:---------: |
-| [15903](https://www.acmicpc.net/problem/15903) | 카드 합체 놀이 | [풀이](https://github.com/Kminwo-o/BaekJoon-Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/15903.%E2%80%85%EC%B9%B4%EB%93%9C%E2%80%85%ED%95%A9%EC%B2%B4%E2%80%85%EB%86%80%EC%9D%B4/%EC%B9%B4%EB%93%9C%E2%80%85%ED%95%A9%EC%B2%B4%E2%80%85%EB%86%80%EC%9D%B4.java) |
+| [4796](https://www.acmicpc.net/problem/4796) | 캠핑 | [풀이](https://github.com/Kminwo-o/BaekJoon-Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Bronze/4796.%E2%80%85%EC%BA%A0%ED%95%91/%EC%BA%A0%ED%95%91.java) |
 
-### 카드 합체 놀이
+### 캠핑
 
-- m 만큼 숫자를 우선순위 queue에 add 한 후, 2개 씩 poll해서 합친 값을 다시 넣어주었다. <br>
-    아무 생각없이 int 값으로 받아서 출력했는데 틀렸다. 카드 개수가 15000 * 1,000,000개 까지 나올 수 있기 때문에<br>
-    long으로 값을 받아 처리하니 맞았습니다가 나왔다.
+- 피곤해서 글이 읽히지 않고 이해가 안되서 어려웠다.
+코테가 있는 날에는 반드시 잘 자고 일어나서 테스트를 봐야한다는 깨달음을 얻었다.
