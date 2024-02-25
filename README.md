@@ -1,7 +1,10 @@
 ### 2024-02-24
 |                     문제번호                     | 문제이름  | 나의 풀이 |
 |:--------------------------------------------:|:-----:|:---------: |
-| [16076](https://www.acmicpc.net/problem/16076) | 휴식이 필요해 | [풀이](https://www.acmicpc.net/problem/16076) |
+| [42883](https://school.programmers.co.kr/learn/courses/30/lessons/42883) | 큰 수 만들기 | [풀이](https://github.com/Kminwo-o/BaekJoon-Algorithm/blob/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42883.%E2%80%85%ED%81%B0%E2%80%85%EC%88%98%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0/%ED%81%B0%E2%80%85%EC%88%98%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0.java) |
 
-### 휴식이 필요해
-- 하루 쉬겠습니다. 허허
+### 큰 수 만들기
+2 자리 이상, 1,000,000자리 이하인 수자가 number이기 때문에 각 자리부터 모두 비교하는건 불가능이다. 따라서 for 문을 통해 필요한 부분만 반복하여 범위 내에서 값이 가장 큰 수를 골라서 저장한다. <br>
+<br>
+전체 길이에서 - k 개 한 만큼만 sb에 저장하여 출력하였다.<br>
+문자열을 계속 추가해줘야하기 때문에 StringBuilder를 쓰는게 더 좋을 것 같아서 썼다.
