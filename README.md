@@ -1,8 +1,9 @@
-### 2024-03-01 
+### 2024-03-02
 |                     문제번호                     | 문제이름 | 나의 풀이 |
 |:--------------------------------------------:|:----:|:---------: |
-| [10974](https://www.acmicpc.net/problem/10974) |  모든 순열  | [풀이](https://github.com/Kminwo-o/BaekJoon-Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/10974.%E2%80%85%EB%AA%A8%EB%93%A0%E2%80%85%EC%88%9C%EC%97%B4/%EB%AA%A8%EB%93%A0%E2%80%85%EC%88%9C%EC%97%B4.java) |
+| [11057](https://www.acmicpc.net/problem/11057) |  모든 순열  | [풀이](https://github.com/Kminwo-o/BaekJoon-Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/11057.%E2%80%85%EC%98%A4%EB%A5%B4%EB%A7%89%E2%80%85%EC%88%98/%EC%98%A4%EB%A5%B4%EB%A7%89%E2%80%85%EC%88%98.java) |
 
-### 모든 순열
-모든 순열을 만들어야하는 문제다. <br>
-Python으로 문제를 풀던 시절이 생각났다. itertools 써서 permutation 쓰면 그냥 알아서 만들어 주는데... 실버 3 문제라서 효율성보다는 그냥 dfs로 그 때 그 때 풀어내게끔 작성했다.
+### 오르막 수
+파이썬이 그립다. int 값으로 감당할 수 있는 범위를 넘어서서 이전 값을 기억하기 위해 dp를 2차원배열로 만들었다. <br>
+그리고 int 값을 넘지 않기 위해 바로바로 10007로 나눈 나머지 값을 기억했다.<br>
+마지막에 answer 또한 모든 dp[n] 값을 더한 경우 int를 초과할 수 있기 때문에 한번 더 10007로 나눈 나머지를 출력했다. <br>
