@@ -1,9 +1,13 @@
-### 2024-03-21
+### 2024-03-22
 |                      문제번호                      | 문제이름  | 나의 풀이  |
 |:----------------------------------------------:|:-----:|:------:|
-| [1302](https://www.acmicpc.net/problem/1302) | 베스트 셀러 | [풀이](https://github.com/Kminwo-o/BaekJoon-Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/1302.%E2%80%85%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%85%80%EB%9F%AC/%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%85%80%EB%9F%AC.java) |
+| [4963](https://www.acmicpc.net/problem/4963) | 섬의 개수 | [풀이](https://github.com/Kminwo-o/BaekJoon-Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/4963.%E2%80%85%EC%84%AC%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98/%EC%84%AC%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98.java) |
 
-### 베스트 셀러
+### 섬의 개수
 
-간단한 자료구조 문제였다. HashMap을 사용해서 책 별로 판매된 수를 카운팅했다. <br>
-이후 갱신을 통해 max를 구하고 max값을 가진 Key만 TreeSet에 추가해서 제일 첫번째만 출력하고 종료하였다. <br>
+풀이는 다음과 같습니다.
+> 1. arr을 2차원배열로 하여 지도의 데이터를 입력받습니다.
+> 2. 2중 for문으로 arr[i][j]가 1이고 visited[i][j]가 false면 bfs()를 통해 8방향으로 섬을 체크합니다.
+> 3. bfs가 시행된 횟수만큼 ++하고 출력합니다.
+
+로직 자체는 어렵지 않으나 h, w 순서가 바뀐점과 8방향으로 탐색을해야하는 점이 주의점이다.
