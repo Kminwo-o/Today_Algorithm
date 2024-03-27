@@ -1,13 +1,14 @@
-### 2024-03-26
+### 2024-03-27
 |                     문제번호                     | 문제이름  | 나의 풀이  |
 |:--------------------------------------------:|:-----:|:------:|
-| [10799](https://www.acmicpc.net/problem/10799) | 쇠막대기 | [풀이](https://github.com/Kminwo-o/BaekJoon-Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/10799.%E2%80%85%EC%87%A0%EB%A7%89%EB%8C%80%EA%B8%B0/%EC%87%A0%EB%A7%89%EB%8C%80%EA%B8%B0.java) |
+| [5430](https://www.acmicpc.net/problem/5430) | AC | [풀이](https://github.com/Kminwo-o/BaekJoon-Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Gold/5430.%E2%80%85AC/AC.java) |
 
-### 쇠막대기
+### AC
 
-어제 풀었던 문제의 ez한 버전인 것 같다. <br>
-풀이가 생각보다 매우 쉬웠다. 방법은 다음과 같다. <br>
-> 1. "("인 경우 num을 +1 해주고 Stack에 넣어준다.
-> 2. ")"인 경우 num을 -1 해주고 input[i-1]이 "("라면 answer에 num만큼 더해준다.
-> 3. 그렇지 않은 경우 그냥 +1 해준다.
-문제가 매우 쉬웠다. Stack을 알고 있다면 구현 가능한 정도?, 자료구조 활용성을 높이기 위해 자료구조 문제를 모두 정복해야겠다.
+Deque를 사용해서 풀이하는 문제이다. T는 최대 100, p는 최대 100,000이기 때문에 직접 배열을 돌리면 사고가 난다. <br>
+따라서 다음과 같이 풀이한다.
+> 1. Deque를 만든다.
+> 2. reverse 상태를 파악하는 boolean 자료를 통해 reverse = true면 뒤에서, reverse = false면 앞에서 요소를 제거한다.
+> 3. TC 케이스가 모두 돌아야하기 때문에 println을 하면 너무 출력이 느리기 때문에 sb를 통해 한번에 출력한다.
+
+배열을 sort하기 보다 deque를 통해 앞 뒤로 빼냈다. deque를 사용하는 건 골드 5 정도여야 할 수 있는건가보다.
