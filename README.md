@@ -1,14 +1,9 @@
-### 2024-03-27
-|                     문제번호                     | 문제이름  | 나의 풀이  |
-|:--------------------------------------------:|:-----:|:------:|
-| [5430](https://www.acmicpc.net/problem/5430) | AC | [풀이](https://github.com/Kminwo-o/BaekJoon-Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Gold/5430.%E2%80%85AC/AC.java) |
+### 2024-03-28
+|                     문제번호                     |      문제이름       | 나의 풀이  |
+|:--------------------------------------------:|:---------------:|:------:|
+| [1620](https://www.acmicpc.net/problem/1620) | 나는야 포켓몬 마스터 이다솜 | [풀이](https://github.com/Kminwo-o/BaekJoon-Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/1620.%E2%80%85%EB%82%98%EB%8A%94%EC%95%BC%E2%80%85%ED%8F%AC%EC%BC%93%EB%AA%AC%E2%80%85%EB%A7%88%EC%8A%A4%ED%84%B0%E2%80%85%EC%9D%B4%EB%8B%A4%EC%86%9C/%EB%82%98%EB%8A%94%EC%95%BC%E2%80%85%ED%8F%AC%EC%BC%93%EB%AA%AC%E2%80%85%EB%A7%88%EC%8A%A4%ED%84%B0%E2%80%85%EC%9D%B4%EB%8B%A4%EC%86%9C.java) |
 
-### AC
+### 나는야 포켓몬 마스터 이다솜
 
-Deque를 사용해서 풀이하는 문제이다. T는 최대 100, p는 최대 100,000이기 때문에 직접 배열을 돌리면 사고가 난다. <br>
-따라서 다음과 같이 풀이한다.
-> 1. Deque를 만든다.
-> 2. reverse 상태를 파악하는 boolean 자료를 통해 reverse = true면 뒤에서, reverse = false면 앞에서 요소를 제거한다.
-> 3. TC 케이스가 모두 돌아야하기 때문에 println을 하면 너무 출력이 느리기 때문에 sb를 통해 한번에 출력한다.
-
-배열을 sort하기 보다 deque를 통해 앞 뒤로 빼냈다. deque를 사용하는 건 골드 5 정도여야 할 수 있는건가보다.
+해시를 활용해서 알맞은 내용을 뽑아내는 간단한 문제였다. <br>
+name과 number을 따로 만들어서 기록해주고, 이름이 존재하지 않으면 숫자로 바꾸어 출력하도록 했다.<br>
