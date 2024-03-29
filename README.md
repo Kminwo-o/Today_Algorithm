@@ -1,13 +1,9 @@
-### 2024-03-29
+### 2024-03-30
 |                     문제번호                     |      문제이름       | 나의 풀이  |
 |:--------------------------------------------:|:---------------:|:------:|
-| [5397](https://www.acmicpc.net/problem/5397) | 키로거 | [풀이](https://github.com/Kminwo-o/BaekJoon-Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/5397.%E2%80%85%ED%82%A4%EB%A1%9C%EA%B1%B0/%ED%82%A4%EB%A1%9C%EA%B1%B0.java) |
+| [2741](https://www.acmicpc.net/problem/2741) | N 찍기 | [풀이](https://github.com/Kminwo-o/BaekJoon-Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Bronze/2741.%E2%80%85N%E2%80%85%EC%B0%8D%EA%B8%B0/N%E2%80%85%EC%B0%8D%EA%B8%B0.java) |
 
-### 키로거
+### N 찍기
 
-풀이는 다음과 같다.
-> 1. Stack을 두 개를 활용한다.
-> 2. "<"나 ">"가 나오면 스택에서 하나씩 빼서 left나 right로 넘긴다.
-> 3. password입력이 모두 끝나면 모두 rightStack으로 몰아넣은 다음 pop하여 출력한다.
-
-솔직히 시간초과가 날 줄 알았는데 나지 않았다.
+휴식하는 날이다. <br>
+숫자 n이 들어오면 1부터 n까지 출력을 하면 된다. 처음엔 그냥 for문으로 출력했는데, stringbuilder를 쓰니까 메모리도, 시간도 훨씬 줄어든다. 항상 Stringbuilder를 생각하자.
