@@ -8,12 +8,9 @@
 - 답안 확인 여부 : ❌ <br>
 - 문제 풀이 시간 : 55분
 
-<style>
-details summary {font-size: large; font-weight: bold}
-</style>
-
+### 코드 작성시 도전한 풀이 방법
 <details>
-<summary> 코드 작성시 도전한 풀이 방법</summary>
+<summary> 풀이 방법 </summary>
 <div markdown="1">
 
 - BFS : 배열 탐색을 통해 봉우리의 개수를 알아내야하는 문제이기에 곧 바로 BFS나 DFS를 떠올렸다. N최대 100, M최대 70이기에 DFS도 가능할 것 같으나 더 익숙하고 자신있는 BFS로 풀이하였음.
